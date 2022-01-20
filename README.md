@@ -10,7 +10,11 @@ The **nnModel.ipynb** file is used to import, clean, and process the data before
 
 ## Results
 * Data Preprocessing
-  * The target variable for this model is **IS_SUCCESSFUL**, which if the organization used the money effectively
+  * Target variable: **IS_SUCCESSFUL** (Yes indicates that the organization used the money effectively)
+  * Features: affiliation, classification, use case, organization type, status, income amount, special considerations, ask amount.
+  * Identification columns were removed from the dataset during preprocessing.
+* Compiling, Training, and Evaluating the Model
+ * The most accurate model tested in this repository had 43 input features, two hidden layers (the first layer had 80 neurons, and the second layer had 30 neurons),  two 
 
 
 ## Getting Started
