@@ -14,7 +14,12 @@ The **nnModel.ipynb** file is used to import, clean, and process the data before
   * Features: affiliation, classification, use case, organization type, status, income amount, special considerations, ask amount.
   * Identification columns were removed from the dataset during preprocessing.
 * Compiling, Training, and Evaluating the Model
- * The most accurate model tested in this repository had 43 input features, two hidden layers (the first layer had 80 neurons, and the second layer had 30 neurons),  two 
+ * The most accurate model tested in this repository had 43 input features, two hidden layers (the first layer had 80 neurons, and the second layer had 30 neurons), and used ReLu and Sigmoid activation functions.
+ * Target model performance (Accuracy = 0.75) was achieved.
+ * Other efforts to improve model performance include binning the ASK_AMT column into 10 groups, and adjusting the number of neurons in each hidden layer. These efforts did not increase the accuracy score above 0.75. 
+
+## Summary
+Keras tuner was used to find the best model parameters, increasing the accuracy score to 0.76. The best model hyperparameters include a ReLu activation function, 11 input units, and 4 layers with 11, 6, 6, 26, and 21 neurons, respectively.
 
 
 ## Getting Started
