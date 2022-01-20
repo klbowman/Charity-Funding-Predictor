@@ -6,7 +6,7 @@ TensorFlow neural network model to predict the success of funding for charitable
 
 Alphabet Soup is a fictional non-profit foundation that has funded more than 34,000 organizations. Data from each organization, such as government classification, industry type, amount of funding requested and effectiveness of the funding, is included in the **chartiy_data.csv** file located in the **Resources** directory.   
 
-The **nnModel.ipynb** file is used to import, clean, and process the data before employing a TensorFlow neural network model to predict if the money from each organization was used effectively (i.e., the organization was successful). The neural network model in this file has 2 hidden layers and 100 epochs, and produces a model loss of 0.57 and accuracy score of 0.73. The model is exported to the **AlphabetSoupCharity.h5** file. The **AlphabetSoupCharity_Optimization.ipynb** file is used to improve the accuracy score of the neural network model.
+The **nnModel.ipynb** file is used to import, clean, and process the data before employing a TensorFlow neural network model to predict if the money from each organization was used effectively (i.e., the organization was successful). The **AlphabetSoupCharity_Optimization.ipynb** file is used to optimize the neural network model to an accuracy score of 0.75.
 
 ## Results
 * **Data Preprocessing**
